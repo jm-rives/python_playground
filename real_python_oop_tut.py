@@ -5,4 +5,4 @@
 # # "The Oldest Dog" review exercise 1
 class Dog:
 
-    pass
+    animal_class = "mammal"
