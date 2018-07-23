@@ -14,3 +14,4 @@ class Dog:
 
 dana = Dog("Dana", 44)
 balto = Dog("Balto," 50)
+mandy = Dog("Mandy", 55)
