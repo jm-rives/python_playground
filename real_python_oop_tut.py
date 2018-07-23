@@ -4,7 +4,7 @@
 # https://realpython.com/python3-object-oriented-programming/
 # # "The Oldest Dog" review exercise 1
 class Dog:
-    # Class Attribute 
+    # Class Attribute
     animal_class = "mammal"
 
     # Initializer function with Instance Attributes
@@ -14,7 +14,7 @@ class Dog:
 
 
 
-def get_biggest_number(numbers):
+def get_biggest_number(list_of_dogs):
     """Accepts a list of Dog objects
     and returns the max age of dogs in the list. """
     dog_ages = []
