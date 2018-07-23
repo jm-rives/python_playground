@@ -16,5 +16,6 @@ dana = Dog("Dana", 44)
 balto = Dog("Balto", 50)
 mandy = Dog("Mandy", 55)
 
+dogs = [dana, balto, mandy]
 def get_biggest_number(numbers):
     pass
