@@ -12,10 +12,24 @@ class Dog:
         self.name = name
         self.age = age
 
+
+
+def get_biggest_number(numbers):
+    """Accepts a list of Dog objects
+    and returns the max age of dogs in the list. """
+    dog_ages = []
+
+    for dog in dogs:
+        dog_ages.append(dog.age)
+        oldest = max(dog_ages)
+
+    print(f"The oldest dog is {oldest} years old.")
+
+
 dana = Dog("Dana", 44)
-balto = Dog("Balto", 50)
+balto = Dog("Balto", 50.0)
 mandy = Dog("Mandy", 55)
 
 dogs = [dana, balto, mandy]
-def get_biggest_number(numbers):
-    pass
+
+get_biggest_number(dogs)
