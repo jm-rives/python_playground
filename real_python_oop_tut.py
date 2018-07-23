@@ -7,6 +7,7 @@ class Dog:
 
     animal_class = "mammal"
 
+    # Initializer function with Instance Attributes
     def __init__(self, name, age):
         self.name = name
         self.age = age
