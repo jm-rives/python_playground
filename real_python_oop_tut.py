@@ -4,7 +4,7 @@
 # https://realpython.com/python3-object-oriented-programming/
 # # "The Oldest Dog" review exercise 1
 class Dog:
-
+    # Class Attribute 
     animal_class = "mammal"
 
     # Initializer function with Instance Attributes
