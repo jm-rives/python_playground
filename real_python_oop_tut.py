@@ -15,3 +15,6 @@ class Dog:
 dana = Dog("Dana", 44)
 balto = Dog("Balto", 50)
 mandy = Dog("Mandy", 55)
+
+def get_biggest_number():
+    pass
