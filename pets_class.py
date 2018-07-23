@@ -33,4 +33,6 @@ class Bulldog(Dog):
     def run(self, speed):
         return "{} runs {}".format(self.name, speed)
 
-        
+
+class Pets:
+    pass
