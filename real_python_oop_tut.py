@@ -6,3 +6,7 @@
 class Dog:
 
     animal_class = "mammal"
+
+    def __init__(self, name, age):
+
+        pass
