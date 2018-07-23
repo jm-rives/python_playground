@@ -13,3 +13,4 @@ class Dog:
         self.age = age
 
 dana = Dog("Dana", 44)
+balto = Dog("Balto," 50)
