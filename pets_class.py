@@ -16,7 +16,7 @@ class Pets:
 class Dog:
 
     # Class attribute
-    species = 'mammal'
+    SPECIES = 'mammal'
 
     # Initializer / Instance attributes
     def __init__(self, name, age):
