@@ -15,7 +15,7 @@ class Pets:
 # Parent class
 class Dog:
 
-    # Class attribute
+    # Class attribute (changed to constant, science has not achieved trans-species tech, yet.)
     SPECIES = 'mammal'
 
     # Initializer / Instance attributes
@@ -40,3 +40,9 @@ class RussellTerrier(Dog):
 class Bulldog(Dog):
     def run(self, speed):
         return "{} runs {}".format(self.name, speed)
+# Create instances of dogs
+my_dogs = [
+    Bulldog("Tom", 6),
+    RussellTerrier("Fletcher", 7),
+    Dog("Larry", 9)
+]
