@@ -50,5 +50,6 @@ my_dogs = [
 my_pets = Pets(my_dogs)
 
 print("I have ", len(my_dogs), " dogs.")
-for dog in my_dogs:
-    pass
+for dog in my_pets.dogs:
+    print("{} is {}.".format(dog.name, dog.age))
+print("And they're all {}s, of course.".format(dog.SPECIES))
