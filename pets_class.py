@@ -5,7 +5,12 @@
 
 # Starter Code
 class Pets:
+
     dogs = []
+
+    def __init__(self, dogs):
+        pass
+
 # Parent class
 class Dog:
 
