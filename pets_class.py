@@ -46,6 +46,8 @@ my_dogs = [
     RussellTerrier("Fletcher", 7),
     Dog("Larry", 9)
 ]
+# Instanciate Pets class
+my_pets = Pets(my_dogs)
 
 print("I have ", len(my_dogs), " dogs.")
 for dog in my_dogs:
