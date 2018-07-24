@@ -9,7 +9,7 @@ class Pets:
     dogs = []
 
     def __init__(self, dogs):
-        pass
+        self.dogs = dogs
 
 # Parent class
 class Dog:
