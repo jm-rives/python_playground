@@ -4,6 +4,7 @@
 # https://realpython.com/python3-object-oriented-programming/
 
 # Starter Code
+# Would it be more logical to name this class 'Dogs' instead of Pets?
 class Pets:
 
     dogs = []
@@ -39,3 +40,5 @@ class RussellTerrier(Dog):
 class Bulldog(Dog):
     def run(self, speed):
         return "{} runs {}".format(self.name, speed)
+
+tom = Pets("Tom", 6)
