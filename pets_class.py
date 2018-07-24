@@ -5,7 +5,7 @@
 
 # Starter Code
 class Pets:
-    pass
+    dogs = []
 # Parent class
 class Dog:
 
