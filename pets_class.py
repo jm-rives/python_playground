@@ -48,3 +48,5 @@ my_dogs = [
 ]
 
 print("I have ", len(my_dogs), " dogs.")
+for dog in my_dogs:
+    pass
