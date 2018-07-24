@@ -4,6 +4,8 @@
 # https://realpython.com/python3-object-oriented-programming/
 
 # Starter Code
+class Pets:
+    pass
 # Parent class
 class Dog:
 
@@ -32,7 +34,3 @@ class RussellTerrier(Dog):
 class Bulldog(Dog):
     def run(self, speed):
         return "{} runs {}".format(self.name, speed)
-
-
-class Pets:
-    pass
