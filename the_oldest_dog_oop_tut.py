@@ -21,8 +21,8 @@ def get_biggest_number(list_of_dogs):
 
     for dog in dogs:
         dog_ages.append(dog.age)
-        oldest = max(dog_ages)
 
+    oldest = max(dog_ages)
     print(f"The oldest dog is {oldest} years old.")
 
 
