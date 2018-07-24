@@ -46,3 +46,5 @@ my_dogs = [
     RussellTerrier("Fletcher", 7),
     Dog("Larry", 9)
 ]
+
+print("I have ", len(my_dogs), " dogs.")
