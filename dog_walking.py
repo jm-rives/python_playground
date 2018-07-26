@@ -36,7 +36,7 @@ class Dog:
     def speak(self, sound):
         return "{} says {}".format(self.name, sound)
 
-    def walk():
+    def walk(self):
         return "{} is walking!".format(self.name)
 
 # Child class (inherits from Dog class)
