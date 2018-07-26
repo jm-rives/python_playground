@@ -32,6 +32,10 @@ class Dog:
     def speak(self, sound):
         return "{} says {}".format(self.name, sound)
 
+    # instance method
+    def eat():
+        pass
+
 
 # Child class (inherits from Dog class)
 class RussellTerrier(Dog):
