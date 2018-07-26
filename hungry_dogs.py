@@ -34,7 +34,11 @@ class Dog:
 
     # instance method
     def eat():
-        pass
+        if is_hungry == True:
+            is_hungry == False
+        else:
+            pass
+
 
 
 # Child class (inherits from Dog class)
@@ -54,10 +58,18 @@ my_dogs = [
 ]
 # Instanciate Pets class
 my_pets = Pets(my_dogs)
-hunger = "test"
 
 print("I have ", len(my_dogs), " dogs.")
 for dog in my_pets.dogs:
     print("{} is {}.".format(dog.name, dog.age))
 print("And they're all {}s, of course.".format(dog.SPECIES))
+
+
+hunger = 'not'
+for dog in my_pets.dogs:
+    if dog.is_hungry == True:
+        dog.eat
+    else:
+        hunger = 'are'
+
 print("My dogs are", hunger, "hungry.")
