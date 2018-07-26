@@ -17,7 +17,8 @@ class Dog:
 
     # Class attribute (changed to constant, science has not achieved trans-species tech, yet.)
     SPECIES = 'mammal'
-    is_hungery = True
+    is_hungry = True
+
     # Initializer / Instance attributes
     def __init__(self, name, age):
         self.name = name
