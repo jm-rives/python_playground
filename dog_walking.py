@@ -13,8 +13,9 @@ class Pets:
         self.dogs = dogs
 
     # Instance method
-    def walk():
-        pass
+    def walk(self):
+        for dog in self.dogs:
+            print(dog.walk())
 
 # Parent class
 class Dog:
@@ -36,7 +37,7 @@ class Dog:
         return "{} says {}".format(self.name, sound)
 
     def walk():
-        pass
+        return "{} is walking!".format(self.name)
 
 # Child class (inherits from Dog class)
 class RussellTerrier(Dog):
