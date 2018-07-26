@@ -12,6 +12,10 @@ class Pets:
     def __init__(self, dogs):
         self.dogs = dogs
 
+    # Instance method
+    def walk():
+        pass
+
 # Parent class
 class Dog:
 
@@ -30,6 +34,9 @@ class Dog:
     # instance method
     def speak(self, sound):
         return "{} says {}".format(self.name, sound)
+
+    def walk():
+        pass
 
 # Child class (inherits from Dog class)
 class RussellTerrier(Dog):
