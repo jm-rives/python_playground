@@ -56,3 +56,5 @@ my_dogs = [
 ]
 # Instanciate Pets class
 my_pets = Pets(my_dogs)
+
+my_pets.walk()
